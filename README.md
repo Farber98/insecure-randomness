@@ -4,7 +4,7 @@ Creating a strong enough source of randomness in Ethereum is very challenging. N
 
 ## Reproduction
 
-### 📜 Involves one smart contract.
+### 📜 Involves two smart contract.
 
     1. A vulnerable contract that uses block values as a source of randomness.
     2. A malicious contract that calculates these values and calls the vulnerable contract.
